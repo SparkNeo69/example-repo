@@ -1,6 +1,0 @@
-this is a sample repo!
-markdown 
-
-git clone path filename - copying from remote to local server
-
-git status
