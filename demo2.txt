@@ -1,0 +1,36 @@
+this is a sample repo!
+markdown 
+
+--git clone path filename - copying from remote to local server
+
+--git status - we will get untracked file if we have not added new file
+
+now add file to staging 
+--git add demo1.txt
+
+now the new file is tracked but not yet commited 
+
+by agan giving git status command 
+--git status - changes to be commited 
+
+control+l - clear
+
+--git commit -m "initial commit" master initial commit   create mode demo1.txt
+--git status - nothing to commit
+
+now our file is commited to the local repo and this time will log when you push this copy to ther remote repo
+now add this file to remote repo
+git push origin master
+login to ur account
+--git push origin master
+
+if you further change this demo1.txt file 
+then check git status again 
+it will show modified: demo1.txt
+
+
+so we need to add and commit this again and for chacking diff we can do as follows
+git diff demo1.txt
+
+
+
